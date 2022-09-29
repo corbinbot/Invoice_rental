@@ -30,35 +30,74 @@ body {
   border-bottom: 1px solid #0d6efd;
 }
 
-.invoice .company-details {
-  text-align: right
+/* ----------------------------- */
+.title {
+  padding: 30px 0px 80px 30px;
+
 }
 
-.invoice .company-details .name {
-  margin-top: 0;
-  margin-bottom: 0
+.address {
+  padding-left: 30px;
+  width: 50%;
+  padding-top: 30px;
 }
 
-.invoice .contacts {
-  margin-bottom: 20px
+.phone {
+  margin-top: -17px;
+  padding-left: 30px;
+  padding-bottom: 30px;
+  width: 50%;
 }
 
-.invoice .invoice-to {
-  text-align: left
+.workorder {
+  text-align: right;
+  color: #0d6efd;
+  padding-top: 30px;
+  margin-right: 10px;
 }
 
-.invoice .invoice-to .to {
-  margin-top: 0;
-  margin-bottom: 0
+.work1 {
+  margin-left: auto;
+  margin-right: 10px;
+  width: 50%;
+}
+.work2 {
+  margin-left: auto;
+  margin-right: 10px;
+  width: 50%;
+  margin-top: -17px;
 }
 
-.invoice .invoice-details {
-  text-align: right
+.top {
+  margin-left: auto;
+  margin-right: 10px;
+  width: 25%;
+  margin-bottom: -1px;
 }
 
+.middle {
+  margin-left: auto;
+  margin-right: 10px;
+  margin-top: -17px;
+  width: 25%;
+  border-radius: 0;
+  margin-bottom: -1px;
+}
+
+.bottom {
+  margin-left: auto;
+  margin-right: 10px;
+  width: 25%;
+  margin-top: -17px;
+  margin-bottom: 10px;
+}
+.job-detail{
+  padding-top: 30px;
+  padding-bottom: 70px;
+}
 .invoice .invoice-details .invoice-id {
   margin-top: 0;
-  color: #0d6efd
+  color: #0d6efd;
 }
 
 .invoice main {
@@ -66,14 +105,14 @@ body {
 }
 
 .invoice main .thanks {
-  margin-top: -100px;
   font-size: 2em;
-  margin-bottom: 50px
+  text-align: center;
+  padding: 20px;
 }
 
 .invoice main .notices {
   padding-left: 6px;
-  border-left: 6px solid #0d6efd;
+  text-align: center;
   background: #e7f2ff;
   padding: 10px;
 }
@@ -131,11 +170,23 @@ body {
   padding: 20px;
 }
 
-.invoice main .notices {
-  padding-left: 6px;
-  border-left: 6px solid #0d6efd;
-  background: #e7f2ff;
-  padding: 10px;
+.end {
+  width: 30%;
+  margin-left: auto;
+  margin-right: 10px;
+}
+
+.dates {
+  padding: 20px;
+}
+
+.input-group-text {
+  width: 40%;
+  text-align: center;
+}
+
+.inputGroup {
+  text-align: center;
 }
 
 .center {
